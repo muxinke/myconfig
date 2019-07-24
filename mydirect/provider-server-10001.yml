@@ -7,3 +7,6 @@ spring:
         url: jdbc:mysql://39.107.15.222:3306/easydai?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
         username: root
         password: 971103
+mybatis:
+  type-aliases-package: com.finance.www.pojo
+  mapper-locations: classpath:mapping/*.xml
